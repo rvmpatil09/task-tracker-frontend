@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Backend URL
-const API_BASE_URL = 'http://localhost:8080/api/tasks';
+//const API_BASE_URL = 'http://localhost:8080/api/tasks';
+
+const API_BASE_URL = 'https://task-backend-api-2l66.onrender.com/api/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
