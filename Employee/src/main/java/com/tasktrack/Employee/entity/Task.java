@@ -13,9 +13,5 @@ public class Task {
 
     private String title;
     private String description;
-    private boolean completed;
-
-    private String createdBy;
-    private String location;
-    private String createdAt;
+    private String status = "Pending";
 }
